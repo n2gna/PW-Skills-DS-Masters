@@ -1,4 +1,4 @@
-79Q1) Who developed Python Programming Language?
+Q1) Who developed Python Programming Language?
 Ans) Guido van Rossum developed Python.
 
 Q2) Which type of Programming does Python support?
@@ -8,9 +8,9 @@ Q3) Is Python case sensitive when dealing with identifiers?
 Ans) Yes, python is case sensitive when dealing with identifiers.
 
 Q4) What is the correct extension of the Python file?
-Ans) .py is the correct ectension of the Python file.
+Ans) .py is the correct extension of the Python file.
 
-Q5) Is Python code compliled or interpreted?
+Q5) Is Python code compiled or interpreted?
 Ans) Python code is interpreted.
 
 Q6) Name a few blocks of code used to define in Python language?
@@ -20,7 +20,7 @@ Q7) State a character used to give single-line comments in Python?
 Ans) # can be used to give single-line comments in Python.
 
 Q8) Mention functions which can help us to find the version of python that we are currently working on.
-Ans) The funstion sys. version can help us to find the version of python that we are currently working on.
+Ans) The function sys. version can help us to find the version of python that we are currently working on.
 
 Q9) Python supports the creation of anonymous functions at runtime, using a construct called _____________
 Ans) Lambda
@@ -42,9 +42,16 @@ Ans) In python, memory is managed internally by the Python memory manager.
 
 Q15) How to install Python on Windows and set Path Variables?
 Ans) a) Go to https://www.python.org/downloads/.
-     b) Download and Install the windows version.
+     b) Download the Windows version.
+     c) Double click on the downloaded Python package.
+     d) Click the 'Add Python to Path' box.
+     e) Click Install Now. 
+     f) If you have failed to click the 'Add Python to Path' box, copy the location path of the downloaded Python package.
+     g) Search and go to Edit the system environment variables.
+     h) Click the Environment variables under Advanced option.
+     i) Click on New under User variables section
+     j) Type a variable name and copy the Python path to variable value and click Ok.
 
 Q16) Is indentation required in python?
 Ans) Yes, indentation is required in python as it defines the scope of a block of code.
-
 
