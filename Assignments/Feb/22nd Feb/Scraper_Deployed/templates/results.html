@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+  <ul>
+    <h3>Links</h3>
+    {% for i in a %}
+    <li>{{ i }}</li>
+    {% endfor %}
+    <br>
+
+    <h3>Thumbnails</h3>
+    {% for i in b %}
+    <li>{{ i }}</li>
+    {% endfor %}
+    <br>
+
+    <h3>Titles</h3>
+    {% for i in c %}
+    <li>{{ i }}</li>
+    {% endfor %}
+    <br>
+
+    <h3>Views</h3>
+    {% for i in d %}
+    <li>{{ i }}</li>
+    {% endfor %}
+    <br>
+
+    <h3>Time</h3>
+    {% for i in e %}
+    <li>{{ i }}</li>
+    {% endfor %}
+
+
+  </ul>
+
+  
+
+
+
+
+</body>
+
+</html>
